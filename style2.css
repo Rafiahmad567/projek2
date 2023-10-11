@@ -1,0 +1,33 @@
+*{
+  margin: 0%;
+}
+header{
+  background-color: aqua;
+  height: 80px;
+  text-align: center;
+  line-height: 60px;
+}
+.container{
+  background-color: blue;
+  height: 40px;
+  display: flex;
+}
+.container sidebar{
+  background-color: blueviolet;
+  flex-grow: 2;
+}
+
+.container main{
+  background-color: rgb(230, 18, 32);
+  flex-grow: 2;
+}
+.container bebas{
+  background-color: rgb(0, 0, 0);
+  width: 70%;
+}
+footer{
+  background-color: rgb(21, 249, 55);
+  height: 80px;
+  text-align: center;
+
+}
